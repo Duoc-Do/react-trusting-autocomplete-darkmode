@@ -1,0 +1,130 @@
+.App {
+  background-image: url(images/background.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header {
+  width: 96%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 1.5rem;
+}
+.App-header a.logo {
+  color: #fff;
+}
+
+.header-support {
+  display: flex;
+}
+.header-sub-menu a {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0 1.2rem;
+  color: #fff;
+}
+.header-sub-menu a:hover {
+  color: #fff069;
+}
+.searchbox {
+  width: 100%;
+  max-width: 450px;
+  margin: 100px auto;
+}
+input[type="search"] {
+  padding: 10px 15px 10px 46px;
+  outline: none;
+  font-size: 1.3rem;
+  color: #484848 !important;
+  border: 1px solid #e3dfdf;
+  background-image: url(images//search-icon-black.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 24px 24px;
+  -moz-background-size: 24px 24px;
+  -o-background-size: 24px 24px;
+
+  background-size: 24px 24px;
+  background-position: 12px 9px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  max-width: 450px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 15rem;
+}
+input[type="search"]:focus {
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -o-border-radius: 4px 4px 0 0;
+  background-color: #f8f8f8;
+}
+
+li {
+  display: block;
+  text-decoration: none;
+  color: #1f5350;
+  font-size: 1rem;
+  padding: 10px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 450px;
+}
+
+ul li a:hover {
+  color: #b23b61;
+  background: #ecd1da;
+}
+
+ul li:hover {
+  /*transform*/
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+  transform: translateX(10px);
+  cursor: pointer;
+}
+
+.suggestions li {
+  overflow: hidden;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+ul.suggestions {
+  max-width: 450px;
+  width: 100%;
+  margin-top: 0px;
+  background-color: #fff;
+  border-top: 0;
+  max-height: 200px;
+  overflow: auto;
+}
+@media (max-width: 767px) {
+  .App-header {
+    width: 94%;
+  }
+  .header-sub-menu {
+    display: none;
+  }
+  .switch {
+    margin-right: 0 !important;
+  }
+}
