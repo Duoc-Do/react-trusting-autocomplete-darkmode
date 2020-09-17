@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-trusting-autocomplete-darkmode/static/css/main.fa555abd.chunk.css",
+    "main.js": "/react-trusting-autocomplete-darkmode/static/js/main.33b15d79.chunk.js",
+    "main.js.map": "/react-trusting-autocomplete-darkmode/static/js/main.33b15d79.chunk.js.map",
+    "runtime-main.js": "/react-trusting-autocomplete-darkmode/static/js/runtime-main.12967996.js",
+    "runtime-main.js.map": "/react-trusting-autocomplete-darkmode/static/js/runtime-main.12967996.js.map",
+    "static/js/2.e622f563.chunk.js": "/react-trusting-autocomplete-darkmode/static/js/2.e622f563.chunk.js",
+    "static/js/2.e622f563.chunk.js.map": "/react-trusting-autocomplete-darkmode/static/js/2.e622f563.chunk.js.map",
+    "index.html": "/react-trusting-autocomplete-darkmode/index.html",
+    "precache-manifest.6e395bce4a46ca87ae383dca11e21367.js": "/react-trusting-autocomplete-darkmode/precache-manifest.6e395bce4a46ca87ae383dca11e21367.js",
+    "service-worker.js": "/react-trusting-autocomplete-darkmode/service-worker.js",
+    "static/css/main.fa555abd.chunk.css.map": "/react-trusting-autocomplete-darkmode/static/css/main.fa555abd.chunk.css.map",
+    "static/js/2.e622f563.chunk.js.LICENSE.txt": "/react-trusting-autocomplete-darkmode/static/js/2.e622f563.chunk.js.LICENSE.txt",
+    "static/media/airbnb-logo.59de6368.svg": "/react-trusting-autocomplete-darkmode/static/media/airbnb-logo.59de6368.svg",
+    "static/media/dark-theme.css": "/react-trusting-autocomplete-darkmode/static/media/background-dark.23f45e08.jpg",
+    "static/media/light-theme.css": "/react-trusting-autocomplete-darkmode/static/media/background.aee9f507.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12967996.js",
+    "static/js/2.e622f563.chunk.js",
+    "static/css/main.fa555abd.chunk.css",
+    "static/js/main.33b15d79.chunk.js"
+  ]
+}
